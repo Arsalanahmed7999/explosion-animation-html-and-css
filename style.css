@@ -1,0 +1,72 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: orangered;
+    box-shadow: 
+    0 0 10px rgb(255, 68, 0),
+    0 0 20px rgb(255, 68, 0);
+    transition: 1s;
+}
+
+.circle:hover{
+    box-shadow: 
+    0 0 0 30px rgb(255, 68, 0, 0.1),
+    0 0 0 60px rgb(255, 68, 0, 0.1),
+    0 0 0 120px rgb(255, 68, 0, 0.1),
+    0 0 0 240px rgb(255, 68, 0, 0.1),
+    0 0 0 480px rgb(255, 68, 0, 0.1),
+    0 0 0 960px rgb(255, 68, 0, 0.1);
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 68, 0);
+    transition: 1s;
+    box-shadow:
+    0 0 20px rgb(255, 68, 0), 
+    0 0 40px rgb(255, 68, 0);
+}
+
+.circle:hover{
+    box-shadow:
+    0 0 0 30px rgb(255, 68, 0, 0.1),
+    0 0 0 60px rgb(255, 68, 0, 0.1),
+    0 0 0 120px rgb(255, 68, 0, 0.1),
+    0 0 0 240px rgb(255, 68, 0, 0.1),
+    0 0 0 480px rgb(255, 68, 0, 0.1),
+    0 0 0 960px rgb(255, 68, 0, 0.1);
+}
